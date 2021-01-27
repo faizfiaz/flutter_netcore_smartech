@@ -1,0 +1,39 @@
+group 'com.faizf.netcore.smartech.flutter_netcore_smartech'
+version '1.0'
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.0'
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 19
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+}
+
+dependencies {
+    implementation 'com.netcore.android:smartech-sdk:3.1.1'
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.20'
+    implementation 'androidx.work:work-runtime-ktx:2.4.0'
+}
