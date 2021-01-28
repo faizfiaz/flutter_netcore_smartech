@@ -5,11 +5,12 @@ import android.content.Context;
 
 import androidx.annotation.NonNull;
 
+import com.faizf.netcore.smartech.flutter_netcore_smartech.model.ModelEvent;
+import com.google.gson.Gson;
 import com.netcore.android.Smartech;
 import com.netcore.android.logger.SMTDebugLevel;
 
 import java.lang.ref.WeakReference;
-import java.util.HashMap;
 
 import io.flutter.Log;
 import io.flutter.embedding.engine.plugins.FlutterPlugin;
@@ -54,18 +55,13 @@ public class FlutterNetcoreSmartechPlugin implements FlutterPlugin, MethodCallHa
 
     @Override
     public void onMethodCall(@NonNull MethodCall call, @NonNull Result result) {
-        if (call.method.equals("getPlatformVersion")) {
-            result.success("Android " + android.os.Build.VERSION.RELEASE);
+        if (call.method.equals("getNetcoreAppId")) {
+            String appId = smartechInstance.getAppID();
+            result.success(appId);
         } else if (call.method.equals("trackingEvent")) {
-
-            HashMap<String, Object> payload = new HashMap<>();
-            payload.put("name", "Nexus 5");
-            payload.put("prid", 2);
-            payload.put("price", 15000.00);
-            payload.put("prqt", 1);
-            smartechInstance.trackEvent("Add To Cart", payload);
-
-            result.success(Smartech.getInstance(new WeakReference<>(context)).getAppID());
+            ModelEvent modelEvent = new Gson().fromJson(call.arguments.toString(), ModelEvent.class);
+            smartechInstance.trackEvent(modelEvent.getEventName(), modelEvent.getPayloadData());
+            result.success(true);
         } else {
             result.notImplemented();
         }

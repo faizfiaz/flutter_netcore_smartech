@@ -1,9 +1,4 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   package="com.faizf.netcore.smartech.flutter_netcore_smartech">
 
-    <application>
-        <meta-data
-            android:name="SMT_APP_ID"
-            android:value="e95190b6a66e41e5ae2a1fe5b4f45aa4" />
-    </application>
 </manifest>

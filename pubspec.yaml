@@ -1,8 +1,7 @@
 name: flutter_netcore_smartech
-description: A new flutter plugin project.
-version: 0.0.1
-author:
-homepage:
+description: A Flutter Plugin to Use Netcore Smartech.
+version: 0.0.7
+homepage: https://github.com/faizfiaz/flutter_netcore_smartech
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

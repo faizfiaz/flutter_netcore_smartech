@@ -2,10 +2,16 @@ PODS:
   - Flutter (1.0.0)
   - flutter_netcore_smartech (0.0.1):
     - Flutter
+    - Smartech-iOS-SDK
+  - Smartech-iOS-SDK (3.1.0)
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - flutter_netcore_smartech (from `.symlinks/plugins/flutter_netcore_smartech/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Smartech-iOS-SDK
 
 EXTERNAL SOURCES:
   Flutter:
@@ -15,8 +21,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  flutter_netcore_smartech: 5ec3a6bce1247ec319c59f86479c16388f129fbb
+  flutter_netcore_smartech: aaefd501f9aca7865e4ca7684d945500d4ef361a
+  Smartech-iOS-SDK: ffe32a3270fd54cd0dab954554952e0c7ff4c6e0
 
-PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
+PODFILE CHECKSUM: a5ead389ae8478b2f010fbadad4f103eae9ff09f
 
 COCOAPODS: 1.9.3
