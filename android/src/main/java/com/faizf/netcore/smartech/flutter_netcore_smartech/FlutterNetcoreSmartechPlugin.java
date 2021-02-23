@@ -62,6 +62,17 @@ public class FlutterNetcoreSmartechPlugin implements FlutterPlugin, MethodCallHa
             ModelEvent modelEvent = new Gson().fromJson(call.arguments.toString(), ModelEvent.class);
             smartechInstance.trackEvent(modelEvent.getEventName(), modelEvent.getPayloadData());
             result.success(true);
+        } else if (call.method.equals("setIdentityUser")) {
+            String identityUser = call.arguments.toString();
+            smartechInstance.setUserIdentity(identityUser);
+            result.success(true);
+        } else if (call.method.equals("loginUser")) {
+            String identityUser = call.arguments.toString();
+            smartechInstance.login(identityUser);
+            result.success(true);
+        } else if (call.method.equals("logoutUser")) {
+            smartechInstance.logoutAndClearUserIdentity(true);
+            result.success(true);
         } else {
             result.notImplemented();
         }

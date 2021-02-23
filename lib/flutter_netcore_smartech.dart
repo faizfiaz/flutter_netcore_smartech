@@ -29,6 +29,21 @@ class FlutterNetcoreSmartech {
     return appId;
   }
 
+  static Future<bool> setIdentityUser(String identityUser) async {
+    final bool result = await _channel.invokeMethod("setIdentityUser", identityUser);
+    return result;
+  }
+
+  static Future<bool> loginUser(String identityUser) async {
+    final bool result = await _channel.invokeMethod("loginUser", identityUser);
+    return result;
+  }
+
+  static Future<bool> logoutUser() async {
+    final bool result = await _channel.invokeMethod("logoutUser");
+    return result;
+  }
+
   static Future<bool> trackingEvent(ModelEvent modelEvent) async {
     final bool result = await _channel.invokeMethod("trackingEvent",
         jsonEncode(modelEvent.toJson(), toEncodable: encoder));

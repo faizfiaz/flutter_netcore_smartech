@@ -25,3 +25,9 @@
 ## 0.0.7
 
 * Add Method Tracking in IOS Native Code
+
+## 0.0.8
+
+* Add Method Set Identity User Android & IOS
+* Add Method Set Login User Android & IOS
+* Add Method Set Logout User Android & IOS

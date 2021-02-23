@@ -1,52 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4368a687-e75b-49a9-ac35-3f556f8c2d7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/faizf/netcore/smartech/flutter_netcore_smartech/model/ModelEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/android/src/main/java/com/faizf/netcore/smartech/flutter_netcore_smartech/model/ModelEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/ios/Classes/ModelEvent.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/ios/Classes/ModelEvent.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/lib/model_event.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Classes/ModelEvent.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Classes/ModelEvent.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/model_event.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/src/main/java/com/faizf/netcore/smartech/flutter_netcore_smartech/FlutterNetcoreSmartechPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/faizf/netcore/smartech/flutter_netcore_smartech/FlutterNetcoreSmartechPlugin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/android/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/android/src/main/java/com/faizf/netcore/smartech/flutter_netcore_smartech/FlutterNetcoreSmartechPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/android/src/main/java/com/faizf/netcore/smartech/flutter_netcore_smartech/FlutterNetcoreSmartechPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/example/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/example/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/example/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/example/ios/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/example/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/example/ios/Runner/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/example/ios/Runner/AppDelegate.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/example/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/example/ios/Runner/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/flutter_netcore_smartech.iml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/flutter_netcore_smartech.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/ios/Classes/FlutterNetcoreSmartechPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/ios/Classes/FlutterNetcoreSmartechPlugin.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/ios/flutter_netcore_smartech.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/ios/flutter_netcore_smartech.podspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/lib/flutter_netcore_smartech.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/lib/flutter_netcore_smartech.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/AppDelegate.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Info.plist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flutter_netcore_smartech.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_netcore_smartech.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Classes/FlutterNetcoreSmartechPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/FlutterNetcoreSmartechPlugin.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/flutter_netcore_smartech.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/ios/flutter_netcore_smartech.podspec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/flutter_netcore_smartech.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_netcore_smartech.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +60,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="flutter.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="SvnConfiguration">
@@ -93,27 +82,52 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_netcore_smartech" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="918" height="259" key="GridCell.Tab.0.bottom" timestamp="1611820565857">
-      <screen x="0" y="25" width="1680" height="973" />
+    <state width="1285" height="200" key="GridCell.Tab.0.bottom" timestamp="1614091212933">
+      <screen x="0" y="25" width="1920" height="1008" />
     </state>
     <state width="918" height="259" key="GridCell.Tab.0.bottom/0.25.1680.973/-110.-1055.1920.1055@-110.-1055.1920.1055" timestamp="1611804443296" />
     <state width="918" height="259" key="GridCell.Tab.0.bottom/0.25.1680.973@0.25.1680.973" timestamp="1611820565857" />
-    <state width="918" height="259" key="GridCell.Tab.0.center" timestamp="1611820565856">
-      <screen x="0" y="25" width="1680" height="973" />
+    <state width="1285" height="200" key="GridCell.Tab.0.bottom/0.25.1920.1008@0.25.1920.1008" timestamp="1614091212933" />
+    <state width="1285" height="200" key="GridCell.Tab.0.center" timestamp="1614091212929">
+      <screen x="0" y="25" width="1920" height="1008" />
     </state>
     <state width="918" height="259" key="GridCell.Tab.0.center/0.25.1680.973/-110.-1055.1920.1055@-110.-1055.1920.1055" timestamp="1611804443296" />
     <state width="918" height="259" key="GridCell.Tab.0.center/0.25.1680.973@0.25.1680.973" timestamp="1611820565856" />
-    <state width="918" height="259" key="GridCell.Tab.0.left" timestamp="1611820565856">
-      <screen x="0" y="25" width="1680" height="973" />
+    <state width="1285" height="200" key="GridCell.Tab.0.center/0.25.1920.1008@0.25.1920.1008" timestamp="1614091212929" />
+    <state width="1285" height="200" key="GridCell.Tab.0.left" timestamp="1614091212924">
+      <screen x="0" y="25" width="1920" height="1008" />
     </state>
     <state width="918" height="259" key="GridCell.Tab.0.left/0.25.1680.973/-110.-1055.1920.1055@-110.-1055.1920.1055" timestamp="1611804443295" />
     <state width="918" height="259" key="GridCell.Tab.0.left/0.25.1680.973@0.25.1680.973" timestamp="1611820565856" />
-    <state width="918" height="259" key="GridCell.Tab.0.right" timestamp="1611820565856">
-      <screen x="0" y="25" width="1680" height="973" />
+    <state width="1285" height="200" key="GridCell.Tab.0.left/0.25.1920.1008@0.25.1920.1008" timestamp="1614091212924" />
+    <state width="1285" height="200" key="GridCell.Tab.0.right" timestamp="1614091212932">
+      <screen x="0" y="25" width="1920" height="1008" />
     </state>
     <state width="918" height="259" key="GridCell.Tab.0.right/0.25.1680.973/-110.-1055.1920.1055@-110.-1055.1920.1055" timestamp="1611804443296" />
     <state width="918" height="259" key="GridCell.Tab.0.right/0.25.1680.973@0.25.1680.973" timestamp="1611820565856" />
+    <state width="1285" height="200" key="GridCell.Tab.0.right/0.25.1920.1008@0.25.1920.1008" timestamp="1614091212932" />
+    <state x="165" y="165" key="SettingsEditor" timestamp="1614089103992">
+      <screen x="0" y="25" width="1920" height="1008" />
+    </state>
+    <state x="165" y="165" key="SettingsEditor/0.25.1920.1008@0.25.1920.1008" timestamp="1614089103992" />
     <state x="323" y="252" width="799" height="518" key="find.popup" timestamp="1611721517016">
       <screen x="0" y="25" width="1680" height="973" />
     </state>

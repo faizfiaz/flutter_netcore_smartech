@@ -46,6 +46,6 @@
             android:value="2" />
         <meta-data
             android:name="SMT_APP_ID"
-            android:value="YOUR_NETCORE_ID" />
+            android:value="YOUR_NETCORE_APP_ID" />
     </application>
 </manifest>

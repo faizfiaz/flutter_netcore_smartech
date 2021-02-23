@@ -65,9 +65,40 @@ class _MyAppState extends State<MyApp> {
           title: const Text('Plugin example app'),
         ),
         body: Center(
-          child: Text('Tracking Event: $_resultTracking\n'),
+          child: Column(
+            children: [
+              Text('Tracking Event: $_resultTracking\n'),
+              SizedBox(height: 12,),
+              InkWell(
+                onTap: () => loginIdentity(),
+                child: Text("Go Set Identity User"),
+              ),
+              SizedBox(height: 12,),
+              InkWell(
+                onTap: () => loginUser(),
+                child: Text("Go Login User"),
+              ),
+              SizedBox(height: 12,),
+              InkWell(
+                onTap: () => logoutUser(),
+                child: Text("Go Logout User"),
+              )
+            ],
+          ),
         ),
       ),
     );
+  }
+
+  loginUser() {
+    FlutterNetcoreSmartech.loginUser("123431");
+  }
+
+  logoutUser(){
+    FlutterNetcoreSmartech.logoutUser();
+  }
+
+  loginIdentity() {
+    FlutterNetcoreSmartech.setIdentityUser("7763123");
   }
 }

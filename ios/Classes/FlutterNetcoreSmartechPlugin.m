@@ -9,7 +9,7 @@
                                      binaryMessenger:[registrar messenger]];
     FlutterNetcoreSmartechPlugin* instance = [[FlutterNetcoreSmartechPlugin alloc] init];
     [registrar addMethodCallDelegate:instance channel:channel];
-
+    
     
 }
 
@@ -17,12 +17,20 @@
     if ([@"getNetcoreAppId" isEqualToString:call.method]) {
         result([[Smartech sharedInstance] getAppId]);
     } else if ([@"trackingEvent" isEqualToString:call.method]){
-        NSLog(@"INI LOGNYA%@", call.arguments);
         ModelEvent *modelEvent = [[ModelEvent alloc] initWithJSONString:call.arguments];
-        NSLog(@"2INI LOGNYA%@", modelEvent.payloadData);
         [[Smartech sharedInstance] trackEvent:modelEvent.eventName andPayload:modelEvent.payloadData];
         result(@YES);
-    }else {
+    } else if ([@"setIdentityUser" isEqualToString:call.method]){
+        [[Smartech sharedInstance] setUserIdentity:call.arguments];
+        result(@YES);
+    } else if ([@"loginUser" isEqualToString:call.method]){
+        [[Smartech sharedInstance] login:call.arguments];
+        result(@YES);
+    } else if ([@"logoutUser" isEqualToString:call.method]){
+        [[Smartech sharedInstance] logoutAndClearUserIdentity:YES];
+        result(@YES);
+    }
+    else {
         result(FlutterMethodNotImplemented);
     }
 }
