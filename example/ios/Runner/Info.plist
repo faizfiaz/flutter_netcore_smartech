@@ -41,16 +41,16 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-    <key>SmartechKeys</key>
-    <dict>
-        <key>SmartechAppGroup</key>
-        <string>group.com.CompanyName.ProductName</string>
-        <key>SmartechAppId</key>
-        <string>8b80c1475dff2e1c5c219689bfde7eb3</string>
-        <key>SmartechUseAdvId</key>
-        <false/>
-        <key>SmartechAutoFetchLocation</key>
-        <false/>
-    </dict>
+	<key>SmartechKeys</key>
+	<dict>
+		<key>SmartechAppGroup</key>
+		<string>group.com.CompanyName.ProductName</string>
+		<key>SmartechAppId</key>
+		<string>YOUR_NETCORE_ID</string>
+		<key>SmartechUseAdvId</key>
+		<false/>
+		<key>SmartechAutoFetchLocation</key>
+		<false/>
+	</dict>
 </dict>
 </plist>
