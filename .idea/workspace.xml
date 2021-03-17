@@ -1,45 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4368a687-e75b-49a9-ac35-3f556f8c2d7c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/src/main/java/com/faizf/netcore/smartech/flutter_netcore_smartech/FlutterNetcoreSmartechPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/faizf/netcore/smartech/flutter_netcore_smartech/FlutterNetcoreSmartechPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flutter_netcore_smartech.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_netcore_smartech.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/FlutterNetcoreSmartechPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/FlutterNetcoreSmartechPlugin.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/flutter_netcore_smartech.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_netcore_smartech.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[RKS8SKPV99999999]" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -52,6 +30,25 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1614095643" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectId" id="1ndVDzScFx39jEjQXQVE5Ec78ka" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -100,30 +97,30 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1285" height="200" key="GridCell.Tab.0.bottom" timestamp="1614091212933">
+    <state width="1285" height="200" key="GridCell.Tab.0.bottom" timestamp="1614096474171">
       <screen x="0" y="25" width="1920" height="1008" />
     </state>
     <state width="918" height="259" key="GridCell.Tab.0.bottom/0.25.1680.973/-110.-1055.1920.1055@-110.-1055.1920.1055" timestamp="1611804443296" />
     <state width="918" height="259" key="GridCell.Tab.0.bottom/0.25.1680.973@0.25.1680.973" timestamp="1611820565857" />
-    <state width="1285" height="200" key="GridCell.Tab.0.bottom/0.25.1920.1008@0.25.1920.1008" timestamp="1614091212933" />
-    <state width="1285" height="200" key="GridCell.Tab.0.center" timestamp="1614091212929">
+    <state width="1285" height="200" key="GridCell.Tab.0.bottom/0.25.1920.1008@0.25.1920.1008" timestamp="1614096474171" />
+    <state width="1285" height="200" key="GridCell.Tab.0.center" timestamp="1614096474170">
       <screen x="0" y="25" width="1920" height="1008" />
     </state>
     <state width="918" height="259" key="GridCell.Tab.0.center/0.25.1680.973/-110.-1055.1920.1055@-110.-1055.1920.1055" timestamp="1611804443296" />
     <state width="918" height="259" key="GridCell.Tab.0.center/0.25.1680.973@0.25.1680.973" timestamp="1611820565856" />
-    <state width="1285" height="200" key="GridCell.Tab.0.center/0.25.1920.1008@0.25.1920.1008" timestamp="1614091212929" />
-    <state width="1285" height="200" key="GridCell.Tab.0.left" timestamp="1614091212924">
+    <state width="1285" height="200" key="GridCell.Tab.0.center/0.25.1920.1008@0.25.1920.1008" timestamp="1614096474170" />
+    <state width="1285" height="200" key="GridCell.Tab.0.left" timestamp="1614096474170">
       <screen x="0" y="25" width="1920" height="1008" />
     </state>
     <state width="918" height="259" key="GridCell.Tab.0.left/0.25.1680.973/-110.-1055.1920.1055@-110.-1055.1920.1055" timestamp="1611804443295" />
     <state width="918" height="259" key="GridCell.Tab.0.left/0.25.1680.973@0.25.1680.973" timestamp="1611820565856" />
-    <state width="1285" height="200" key="GridCell.Tab.0.left/0.25.1920.1008@0.25.1920.1008" timestamp="1614091212924" />
-    <state width="1285" height="200" key="GridCell.Tab.0.right" timestamp="1614091212932">
+    <state width="1285" height="200" key="GridCell.Tab.0.left/0.25.1920.1008@0.25.1920.1008" timestamp="1614096474170" />
+    <state width="1285" height="200" key="GridCell.Tab.0.right" timestamp="1614096474171">
       <screen x="0" y="25" width="1920" height="1008" />
     </state>
     <state width="918" height="259" key="GridCell.Tab.0.right/0.25.1680.973/-110.-1055.1920.1055@-110.-1055.1920.1055" timestamp="1611804443296" />
     <state width="918" height="259" key="GridCell.Tab.0.right/0.25.1680.973@0.25.1680.973" timestamp="1611820565856" />
-    <state width="1285" height="200" key="GridCell.Tab.0.right/0.25.1920.1008@0.25.1920.1008" timestamp="1614091212932" />
+    <state width="1285" height="200" key="GridCell.Tab.0.right/0.25.1920.1008@0.25.1920.1008" timestamp="1614096474171" />
     <state x="165" y="165" key="SettingsEditor" timestamp="1614089103992">
       <screen x="0" y="25" width="1920" height="1008" />
     </state>

@@ -45,6 +45,7 @@ public class FlutterNetcoreSmartechPlugin implements FlutterPlugin, MethodCallHa
     private void initializeSmartech(Context context, Application application) {
         smartechInstance = Smartech.getInstance(new WeakReference<>(context));
         smartechInstance.initializeSdk(application);
+        smartechInstance.trackAppInstallUpdateBySmartech();
         smartechInstance.setDebugLevel(SMTDebugLevel.Level.VERBOSE);
         try {
             smartechInstance.fetchAlreadyGeneratedTokenFromFCM();

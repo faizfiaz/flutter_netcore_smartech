@@ -1,6 +1,6 @@
 name: flutter_netcore_smartech
 description: A Flutter Plugin to Use Netcore Smartech.
-version: 0.0.8
+version: 0.0.9
 homepage: https://github.com/faizfiaz/flutter_netcore_smartech
 
 environment:

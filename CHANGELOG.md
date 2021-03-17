@@ -31,3 +31,10 @@
 * Add Method Set Identity User Android & IOS
 * Add Method Set Login User Android & IOS
 * Add Method Set Logout User Android & IOS
+
+## 0.0.9
+
+* Add Track Install & Update by Smartech Android
+
+
+
