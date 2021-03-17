@@ -36,5 +36,11 @@
 
 * Add Track Install & Update by Smartech Android
 
+## 1.0.0
+
+* Ready for release
+* Updater library smartech and worker android
+
+
 
 

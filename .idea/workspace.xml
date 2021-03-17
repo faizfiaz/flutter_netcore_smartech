@@ -5,13 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4368a687-e75b-49a9-ac35-3f556f8c2d7c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/faizf/netcore/smartech/flutter_netcore_smartech/FlutterNetcoreSmartechPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/faizf/netcore/smartech/flutter_netcore_smartech/FlutterNetcoreSmartechPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_netcore_smartech.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_netcore_smartech.iml" afterDir="false" />
-    </list>
+    <list default="true" id="4368a687-e75b-49a9-ac35-3f556f8c2d7c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,10 +119,11 @@
       <screen x="0" y="25" width="1920" height="1008" />
     </state>
     <state x="165" y="165" key="SettingsEditor/0.25.1920.1008@0.25.1920.1008" timestamp="1614089103992" />
-    <state x="323" y="252" width="799" height="518" key="find.popup" timestamp="1611721517016">
-      <screen x="0" y="25" width="1680" height="973" />
+    <state x="369" y="260" width="914" height="537" key="find.popup" timestamp="1615970975841">
+      <screen x="0" y="25" width="1920" height="1008" />
     </state>
     <state x="323" y="252" width="799" height="518" key="find.popup/0.25.1680.973@0.25.1680.973" timestamp="1611721517016" />
+    <state x="369" y="260" width="914" height="537" key="find.popup/0.25.1920.1008@0.25.1920.1008" timestamp="1615970975841" />
     <state x="145" y="239" width="670" height="676" key="search.everywhere.popup" timestamp="1611818641016">
       <screen x="0" y="25" width="1680" height="973" />
     </state>
